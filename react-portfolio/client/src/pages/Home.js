@@ -1,12 +1,12 @@
 import React from "react";
-import { Card, Modal } from "../components/Card";
+import Container from "react-bootstrap/Container"
+import JumboTron from "../components/Jumbotron";
 
 const Home = () => {
   return (
-    <div className="container">
-      <Card />
-      <Modal />
-    </div>
+    <Container>
+      <JumboTron/>
+      </Container>
   );
 };
 
