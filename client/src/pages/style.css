@@ -1,0 +1,4 @@
+.card-transition {
+    transition: width 1s;
+    transition-timing-function: linear
+}
