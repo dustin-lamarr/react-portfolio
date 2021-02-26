@@ -1,21 +1,24 @@
 import React from "react";
 import "./style.css";
 
-function MainCards(props) {
+function MainCards({ id, img, section, onClick}) {
   return (
-        <div className="col-3 ml-3 h-100">
-          <div className="card inline border-0 card-shadow" id={props.id}>
-            <div className="card-body p-0">
-              <img src={props.img} class="card-img" alt={props.id}></img>
-            </div>
-            <div className="card-footer card-h3"
-                  id="card-footer-bg">
-              <span className="" href=".card-transition">
-              <h3 className="fw-light">{props.section}</h3>
-              </span>
-          </div>
-          </div>
-        </div>     
+    
+    <div className={"col-3 ml-3 h-100"}>
+      <div className="card inline border-0 card-shadow bg-dark click" id={id}>
+        <div className="card-body p-0">
+          <img src={img} class="card-img" alt={id}></img>
+        </div>
+        <button className="btn click" href="" id="card-btn" onClick={e=> {
+          onClick(e)
+        }}>
+          {/* <div className="card-footer card-h3 px-0" id="card-footer-bg"> */}
+            {section}
+          {/* </div> */}
+        </button>
+      </div>
+    </div>
+   
   );
 }
 export default MainCards;

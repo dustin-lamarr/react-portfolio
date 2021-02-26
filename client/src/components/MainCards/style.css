@@ -6,19 +6,25 @@
     background-image: url("code.png");
 } */
 
-#card-body {
-    border-radius: 10px 10px 0px 0px;
-}
-
 .card-h3 {
     color: azure;
 }
 
 #card-footer-bg {
     background-color: #132639 ;
-    /* border-radius: 0px 0px 10px 10px; */
+    border-top: none;
 }
 
+#card-btn {
+    background-color: #132639 ;
+    border-radius: none;
+
+}
+
+#alt-btn-bg {
+    background-color: red ;
+    /* border-radius: 0px 0px 10px 10px; */
+}
 .card-shadow {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
