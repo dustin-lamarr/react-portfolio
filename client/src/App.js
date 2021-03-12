@@ -1,8 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import TopNav from "./components/TopNav"
-import Home from "./pages/Home";
-import Code from "./pages/Code"
+import { Home, Code } from "./pages";
 
 function App() {
   return (

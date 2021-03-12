@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 
-function MainCards({ id, img, section, href}) {
+function InfoCard({ id, img, section }) {
  
   const styles = {
     footerFont: {
@@ -10,18 +10,15 @@ function MainCards({ id, img, section, href}) {
   }
 
   return (  
-    <div className="pb-4">
+    <div className="pb-3">
       <div className="card inline border-0 card-shadow bg-dark" id={id}>
         <div className="card-body p-0">
           <img src={img} className="card-img" alt={id}></img>
         </div>
-        <a className="btn fs-3" style={styles.footerFont} href={href} id="card-btn" 
-        >
-          {section}
-        </a>
+        <p class="card-text">{section}</p>
       </div>
       </div>
    
   );
 }
-export default MainCards;
+export default InfoCard;
