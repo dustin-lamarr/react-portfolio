@@ -1,10 +1,12 @@
 import React from "react";
+import "./style.css"
 import Container from "../components/Container";
 import Row from "../components/Row";
 import MainCards from "../components/MainCards";
 import TopNav from "../components/TopNav";
 
 export function Home() {
+  
   return (
     <>
       <TopNav />
@@ -44,6 +46,8 @@ export function Home() {
           </div>
         </Row>
       </Container>
+      <div className="p-3" id="divider"></div>
+      
     </>
   );
 }

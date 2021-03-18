@@ -1,10 +1,11 @@
 import React from "react";
 import Container from "../../components/Container";
-import MainCards from "../../components/MainCards";
 import TopNav from "../../components/TopNav";
-import Row from "../../components/Row";
+import InfoCard from "../../components/InfoCard";
 
 export function Code() {
+
+
   return (
     <>
       <TopNav />
@@ -13,18 +14,19 @@ export function Code() {
         <div className="col-1"></div>
         <div className="col-10 align-self-center">
           {/* <div className="row align-items-center justify-content-center "> */}
-          <MainCards
+          <InfoCard
             img={"/images/voter-landing.png"}
             id={"voter"}
             section={"Voter"}
+            href={"/code/voter"}
           />
 
-          <MainCards
+          <InfoCard
             img={"/images/bobbyfirmino.png"}
             id={"bobby"}
             section={"bobbyfirmino.com"}
           />
-          <MainCards
+          <InfoCard
             img={"/images/binger.png"}
             id={"binger"}
             section={"Binger"}
