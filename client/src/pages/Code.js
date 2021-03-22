@@ -1,36 +1,60 @@
-import React from "react";
-import Container from "../../components/Container";
-import TopNav from "../../components/TopNav";
-import InfoCard from "../../components/InfoCard";
+import React, { useEffect, useState } from "react";
+import Container from "../components/Container";
+import TopNav from "../components/TopNav";
+import InfoCard from "../components/InfoCard";
+import { Voter, Bobby, Binger } from "../utils/projects"
+
 
 export function Code() {
+
   return (
     <>
       <TopNav />
       <Container>
        
           <InfoCard
-            img={"/images/voter-dashboard.png"}
-            id={"voter"}
-            section={"Voter"}
-            href={"https://lamarr-voter-app.herokuapp.com/"}
-            summary={"An ongoing project to help people be more informed about how their elected officials are representing them. Currently displays users federal, state, and municipal officials."}
-            tech={["HTML/CSS","Javascript","React","MongoDB (Atlas)","Passport","Axios","Bootstrap","Express","Mongoose","Google Civic API","Pro-Publica Congress API"]}
-          />
+          img={Voter.img}
+          id={Voter.id}
+          section={Voter.section}
+          href={Voter.href}
+          summary={Voter.summary}
+          github={Voter.github}
+          >
+            {Voter.tech.map((tech, i) => {
+              return (
+                <li key={i}>{tech}</li>
+              )
+            })}
+          </InfoCard>
 
           <InfoCard
-            img={"/images/bobbyfirmino.png"}
-            id={"bobby"}
-            section={"bobbyfirmino.com"}
-            href={"http://bobbyfirmino.com/"}
-            summary={"Promotional website in conjunction with LFC Utah. Currently renders a random gif based on an api search from the clicked team name."}
-          />
+          img={Bobby.img}
+          id={Bobby.id}
+          section={Bobby.section}
+          href={Bobby.href}
+          summary={Bobby.summary}
+          github={Bobby.github}
+             >
+               {Bobby.tech.map((tech, i) => {
+              return (
+                <li key={i}>{tech}</li>
+              )
+            })}
+             </InfoCard>
           <InfoCard
-            img={"/images/binger.png"}
-            id={"binger"}
-            section={"Binger"}
-            href={"https://dustin-lamarr.github.io/binger/"}
-          />
+            img={Binger.img}
+            id={Binger.id}
+            section={Binger.section}
+            href={Binger.href}
+            summary={Binger.summary}
+            github={Binger.github}
+          >
+              {Binger.tech.map((tech, i) => {
+              return (
+                <li key={i}>{tech}</li>
+              )
+            })}
+          </InfoCard>
          
       </Container>
     </>

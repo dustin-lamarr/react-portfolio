@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import TopNav from "./components/TopNav"
-import { Home, Code } from "./pages";
+import { Home, Code, Resume } from "./pages";
 
 function App() {
   return (
@@ -12,6 +11,7 @@ function App() {
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
             <Route exact path="/code" component={Code}/>
+            <Route exact path="/resume" component={Resume}/>
           </Switch>
       
       </div>
