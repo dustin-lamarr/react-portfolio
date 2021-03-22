@@ -15,10 +15,10 @@ function MainCards({ id, img, section, href}) {
         <div className="card-body p-0">
           <img src={img} className="card-img" alt={id}></img>
         </div>
-        <a className="btn fs-3" style={styles.footerFont} href={href} id="card-btn" 
-        >
+        <a className="btn fs-3 p-0" style={styles.footerFont} href={href} id="card-btn">
           {section}
         </a>
+        
       </div>
       </div>
    

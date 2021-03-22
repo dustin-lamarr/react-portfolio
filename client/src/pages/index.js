@@ -1,2 +1,2 @@
-export { Code, Voter } from "./Code"
+export { Code } from "./Code"
 export { Home } from "./Home"
