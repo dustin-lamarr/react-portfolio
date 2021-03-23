@@ -1,3 +1,5 @@
 export { Code } from "./Code"
 export { Home } from "./Home"
 export { Resume } from "./Resume"
+export { Writing } from "./Writing"
+export { About } from "./About"
