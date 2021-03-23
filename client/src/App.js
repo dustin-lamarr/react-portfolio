@@ -5,8 +5,7 @@ import { Home, Code, Resume, Writing, About } from "./pages";
 function App() {
   return (
     <Router>
-      <div>
-          
+      <div>  
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/home" component={Home} />
