@@ -7,7 +7,9 @@ export function Writing(){
 
     return (
         <>
-          <TopNav />
+          <TopNav 
+          page={"writing"}
+          />
           <Container>
             <div className="container-fluid">
               <div className="row row-cols py-5 ml-5 justify-content-center">

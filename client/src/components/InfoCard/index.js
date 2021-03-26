@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 
-function InfoCard({ id, img, section, href, summary, children, github }) {
+function InfoCard({ id, img, section, href, summary, children, github, alt }) {
   const styles = {
     listBody: {
       backgroundColor: "#132639",
@@ -17,7 +17,7 @@ function InfoCard({ id, img, section, href, summary, children, github }) {
       >
         <div className="row">
           <div className="col p-2 align-self-center">
-            <img className="img-fluid" src={img} alt="..."></img>
+            <img className="img-fluid" src={img} alt={alt}></img>
           </div>
           <div className="col pt-3 align-self-start">
             <ul className="list-group list-group-flush">

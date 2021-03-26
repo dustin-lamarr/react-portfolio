@@ -9,7 +9,9 @@ export function Code() {
 
   return (
     <>
-      <TopNav />
+      <TopNav 
+      page={"code"}
+      />
       <Container>
        
           <InfoCard
@@ -19,6 +21,7 @@ export function Code() {
           href={Voter.href}
           summary={Voter.summary}
           github={Voter.github}
+          alt={Voter.alt}
           >
             {Voter.tech.map((tech, i) => {
               return (

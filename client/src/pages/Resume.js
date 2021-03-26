@@ -6,7 +6,9 @@ import Row from "../components/Row";
 export function Resume() {
   return (
     <>
-      <TopNav />
+      <TopNav 
+      page={"resume"}
+      />
       <Container>
         <div className="container-lg">
           <div className="row pt-5">

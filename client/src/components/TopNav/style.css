@@ -1,7 +1,12 @@
 .nav-bg {
     background-color: #79a6d2;
+    color: white;
 }
 
-#overlay-text {
-    color: #585858
+#nav-li {
+    background-color: transparent;
+    color: white;
+    
 }
+
+

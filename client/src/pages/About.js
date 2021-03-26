@@ -14,7 +14,9 @@ export function About() {
 
   return (
     <>
-      <TopNav />
+      <TopNav 
+      page={"about"}
+      />
       <Container>
         <div
           className="container-lg border border-dark mt-5 shadow"

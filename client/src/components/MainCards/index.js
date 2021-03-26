@@ -10,17 +10,17 @@ function MainCards({ id, img, section, href}) {
   }
 
   return (  
-    <div className="pb-4">
+    // <div className="container-fluid">
       <div className="card inline border-0 card-shadow bg-dark" id={id}>
         <div className="card-body p-0">
           <img src={img} className="card-img" alt={id}></img>
         </div>
-        <a className="btn fs-3 p-0" style={styles.footerFont} href={href} id="card-btn">
+        <a className="btn fs-3 p-0 text-break" style={styles.footerFont} href={href} id="card-btn">
           {section}
         </a>
         
       </div>
-      </div>
+      // </div>
    
   );
 }

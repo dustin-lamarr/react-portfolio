@@ -9,7 +9,9 @@ export function Home() {
   
   return (
     <>
-      <TopNav />
+      <TopNav 
+      page={"home"}
+      />
       <Container>
         <Row>
         <div className={"col-3 ml-3 h-100 pb-3"}>
@@ -26,6 +28,7 @@ export function Home() {
             img={"/images/cv.png"}
             section={"Resumé."}
             href={"/resume"}
+            page={"resume"}
           />
           </div>
           <div className={"col-3 ml-3 h-100 pb-3"}>
@@ -34,6 +37,7 @@ export function Home() {
             img={"/images/slam_poetry.png"}
             section={"Writing."}
             href={"/writing"}
+            page={"writing"}
           />
           </div>
           <div className={"col-3 ml-3 h-100 pb-3"}>
@@ -42,11 +46,11 @@ export function Home() {
             img={"/images/me.png"}
             section={"About Me."}
             href={"/about"}
+            page={"about"}
           />
           </div>
         </Row>
       </Container>
-      <div className="p-3" id="divider"></div>
       
     </>
   );
