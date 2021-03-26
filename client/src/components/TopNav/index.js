@@ -232,6 +232,19 @@ function TopNav({ page }) {
               />
             </a>
           </div>
+          <div className="d-inline-flex flex-column">
+            <a
+              className="navbar-brand py-0"
+              href="https://github.com/dustin-lamarr"
+            >
+              <img
+                src="/images/github.svg"
+                alt="github logo"
+                height="30"
+                width="30"
+              />
+            </a>
+          </div>
           </div>
         </div>
       </div>
