@@ -4,6 +4,7 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import MainCards from "../components/MainCards";
 import TopNav from "../components/TopNav";
+import SkillsBox from "../components/SkillsBox"
 
 export function Home() {
   
@@ -50,6 +51,16 @@ export function Home() {
           />
           </div>
         </Row>
+        <div className="row border rounded border-dark shadow-lg mx-5 skills-box py-3 align-items-center" id="divider">
+          <div className="col-sm-2 border-end">
+<p className="text-center fs-5">
+  Languages, Libraries, and Tech
+</p>
+</div>
+<div className="col-sm-10">
+  <SkillsBox/>
+</div>
+        </div>
       </Container>
       
     </>
