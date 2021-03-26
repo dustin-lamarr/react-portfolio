@@ -26,10 +26,10 @@ function TopNav({ page }) {
           <div className="d-inline-flex flex-row align-items-end">
             {page === "home" &&
             (
-              <span class="navbar-text fw-bolder" style={{color: "#132639"}}>Dustin LaMarr | Full Stack Developer | dustin.lamarr@gmail.com</span>
+              <span className="navbar-text fw-bolder" style={{color: "#132639"}}>Dustin LaMarr | Full Stack Developer | dustin.lamarr@gmail.com</span>
             )}
           {page === "code" && (
-            <ul className="navbar-nav list-group-flush list-group-horizontal align-items-end">
+            <ul className="navbar-nav list-group-flush list-group-horizontal align-items-end  ml-auto">
               <li className="nav-item list-group-item border-0 bg-transparent pb-0" >
                 <a className="nav-link" aria-current="page" href="/" id="nav-li">
                   Home

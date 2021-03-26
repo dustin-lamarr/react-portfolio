@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 
 function InfoCard({ id, img, section, href, summary, children, github, alt }) {
   const styles = {
@@ -21,14 +21,16 @@ function InfoCard({ id, img, section, href, summary, children, github, alt }) {
           </div>
           <div className="col pt-3 align-self-start">
             <ul className="list-group list-group-flush">
+              <li className="list-group-item border-0" style={styles.listBody}>
               <a
-                className="list-group-item list-group-item-action list-group-item-primary fs-1"
+                className="fs-1 p-1 border-0"
                 href={href}
                 style={styles.listBody}
               >
                 {section}
+                
               </a>
-
+              </li>
               <li className="list-group-item" style={styles.listBody}>
                 <p style={{ color: "white" }}>{summary}</p>
               </li>
