@@ -119,23 +119,14 @@ function SkillsBox() {
           <li className="list-group-item bg-transparent p-0 justify-content-start border-0">
           <div className="row row-cols-2 align-items-center pb-1">
                   <div className="col-sm-auto">
-              <img src="/images/insomnia.svg" alt="insomnia logo" height="30" width="30" className="align-self-start"></img>
+              <img src="/images/agile.svg" alt="agile logo" height="30" width="30" className="align-self-start"></img>
               </div>
               <div className="col-sm-auto ps-0">
-            <p className="fs-5 m-0">Insomnia</p>
+            <p className="fs-5 m-0">Agile</p>
               </div>
               </div>
           </li>
-          <li className="list-group-item bg-transparent p-0 justify-content-start border-0">
-          <div className="row row-cols-2 align-items-center pb-1">
-                  <div className="col-sm-auto">
-              <img src="/images/jquery.svg" alt="jquery logo" height="25" width="25" className="align-self-start"></img>
-              </div>
-              <div className="col-sm-auto ps-0">
-            <p className="fs-5 m-0">JQuery</p>
-              </div>
-              </div>
-          </li>
+          
       </ul>
       </div>
       </div>
