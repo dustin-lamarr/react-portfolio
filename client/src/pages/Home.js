@@ -14,7 +14,7 @@ export function Home() {
       />
       <Container>
         <Row>
-        <div className={"col-3 ml-3 h-100 pb-3"}>
+        <div className={"col-sm-3 ml-3 h-100 pb-3"}>
           <MainCards
             id={"code"}
             img={"/images/code.png"}
@@ -22,7 +22,7 @@ export function Home() {
             href={"/code"}
           />
           </div>
-          <div className={"col-3 ml-3 h-100 pb-3"}>
+          <div className={"col-sm-3 ml-3 h-100 pb-3"}>
           <MainCards
             id={"resume"}
             img={"/images/cv.png"}
@@ -31,7 +31,7 @@ export function Home() {
             page={"resume"}
           />
           </div>
-          <div className={"col-3 ml-3 h-100 pb-3"}>
+          <div className={"col-sm-3 ml-3 h-100 pb-3"}>
           <MainCards
             id={"writing"}
             img={"/images/slam_poetry.png"}
@@ -40,7 +40,7 @@ export function Home() {
             page={"writing"}
           />
           </div>
-          <div className={"col-3 ml-3 h-100 pb-3"}>
+          <div className={"col-sm-3 ml-3 h-100 pb-3"}>
           <MainCards
             id={"me"}
             img={"/images/me.png"}

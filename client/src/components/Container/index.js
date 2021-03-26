@@ -4,7 +4,7 @@ import React from "react";
 function Container({ children }) {
   
   return (
-    <div className="container-fluid p-0" id="">
+    <div className="container-fluid min-vw-100" id="">
       { children }
       </div>
     

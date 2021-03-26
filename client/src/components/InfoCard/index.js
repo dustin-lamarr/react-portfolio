@@ -16,10 +16,10 @@ function InfoCard({ id, img, section, href, summary, children, github, alt }) {
         style={styles.listBody}
       >
         <div className="row">
-          <div className="col p-2 align-self-center">
+          <div className="col-sm p-2 align-self-center">
             <img className="img-fluid" src={img} alt={alt}></img>
           </div>
-          <div className="col pt-3 align-self-start">
+          <div className="col-sm pt-3 align-self-start">
             <ul className="list-group list-group-flush">
               <li className="list-group-item border-0" style={styles.listBody}>
               <a
