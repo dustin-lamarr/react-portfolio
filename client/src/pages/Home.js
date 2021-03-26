@@ -51,8 +51,8 @@ export function Home() {
           />
           </div>
         </Row>
-        <div className="row border rounded border-dark shadow-lg mx-5 skills-box py-3 align-items-center" id="divider">
-          <div className="col-sm-2 border-end">
+        <div className="row border rounded border-dark shadow-lg mx-5 skills-box py-3 align-items-center mb-5" id="divider">
+          <div className="col-sm-2">
 <p className="text-center fs-5">
   Languages, Libraries, and Tech
 </p>
