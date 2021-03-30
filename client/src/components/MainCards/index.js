@@ -13,11 +13,11 @@ function MainCards({ id, img, section, href}) {
     // <div className="container-fluid">
       <div className="card inline border-0 card-shadow bg-dark" id={id}>
         <div className="card-body p-0">
-          <img src={img} className="card-img" alt={id}></img>
+          <a href={href}><img src={img} className="card-img" alt={id}></img></a>
         </div>
-        <a className="btn fs-3 p-0 text-break" style={styles.footerFont} href={href} id="card-btn">
+        <button className="fs-3 border-0 text-break" style={styles.footerFont} href={href} id="card-btn">
           {section}
-        </a>
+        </button>
         
       </div>
       // </div>

@@ -18,7 +18,7 @@ function TopNav({ page }) {
                  <ul className="navbar-nav list-group-flush list-group-horizontal">
                  <li className="nav-item list-group-item border-0 bg-transparent p-0">
                 <span
-                  className="navbar-text"
+                  className="navbar-text text-break"
                   style={{ color: "white" }}
                 >
                   Dustin LaMarr | Full Stack Developer | <a className="link-light" href="mailto:dustin.lamarr@gmail.com">dustin.lamarr@gmail.com</a>
