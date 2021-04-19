@@ -68,6 +68,7 @@ function TopNav({ page }) {
                       About
                     </a>
                   </li>
+                
                 </ul>
               )}
               {page === "resume" && (

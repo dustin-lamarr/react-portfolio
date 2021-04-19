@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import TopNav from "../components/TopNav";
 import InfoCard from "../components/InfoCard";
-import { Voter, Bobby, Binger } from "../utils/projects"
+import { Portfolio, Voter, Bobby, Binger } from "../utils/projects"
 
 
 export function Code() {
@@ -13,7 +13,23 @@ export function Code() {
       page={"code"}
       />
       <Container>
-       
+     
+      <InfoCard
+          img={Portfolio.img}
+          id={Portfolio.id}
+          section={Portfolio.section}
+          href={Portfolio.href}
+          summary={Portfolio.summary}
+          github={Portfolio.github}
+          alt={Portfolio.alt}
+          >
+            {Portfolio.tech.map((tech, i) => {
+              return (
+                <li key={i}>{tech}</li>
+              )
+            })}
+          </InfoCard>
+
           <InfoCard
           img={Voter.img}
           id={Voter.id}
