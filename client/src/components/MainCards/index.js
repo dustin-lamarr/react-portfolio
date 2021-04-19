@@ -15,8 +15,8 @@ function MainCards({ id, img, section, href}) {
         <div className="card-body p-0">
           <a href={href}><img src={img} className="card-img" alt={id}></img></a>
         </div>
-        <button className="fs-3 border-0 text-break" style={styles.footerFont} href={href} id="card-btn">
-          {section}
+       <button className="fs-3 border-0 text-break"   id="card-btn">
+       <a href={href} style={styles.footerFont}> {section}</a>
         </button>
         
       </div>
