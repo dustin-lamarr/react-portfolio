@@ -16,7 +16,7 @@ export function Writing(){
               <div className="col align-self-center">  
               <object
                   type="application/pdf"
-                  data="/images/arena.pdf"
+                  data="/images/Arena.pdf"
                   width="600"
                   height="800"
                 >Arena</object>
