@@ -31,9 +31,9 @@ export function About() {
             <br />
             <p className="fs-3" style={styles.about}>
               In my career life I have almost 10 years experience in branding, product
-              development, marketing, and business operations. I am creative at solving problems, I take pride in my integrity, and I am a great teammate.
+              development, marketing, and business operations. Now I write efficient, useful code and am eager to learn more.
               
-              Now I write efficient, useful code and am eager to learn more.
+              I am creative at solving problems, I take pride in my integrity, and I am a great teammate.
             </p>
           </div>
         </div>
