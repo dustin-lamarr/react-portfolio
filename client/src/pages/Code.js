@@ -13,22 +13,6 @@ export function Code() {
       page={"code"}
       />
       <Container>
-     
-      <InfoCard
-          img={Portfolio.img}
-          id={Portfolio.id}
-          section={Portfolio.section}
-          href={Portfolio.href}
-          summary={Portfolio.summary}
-          github={Portfolio.github}
-          alt={Portfolio.alt}
-          >
-            {Portfolio.tech.map((tech, i) => {
-              return (
-                <li key={i}>{tech}</li>
-              )
-            })}
-          </InfoCard>
 
           <InfoCard
           img={Voter.img}
@@ -60,6 +44,23 @@ export function Code() {
               )
             })}
              </InfoCard>
+
+             <InfoCard
+          img={Portfolio.img}
+          id={Portfolio.id}
+          section={Portfolio.section}
+          href={Portfolio.href}
+          summary={Portfolio.summary}
+          github={Portfolio.github}
+          alt={Portfolio.alt}
+          >
+            {Portfolio.tech.map((tech, i) => {
+              return (
+                <li key={i}>{tech}</li>
+              )
+            })}
+          </InfoCard>
+          
           <InfoCard
             img={Binger.img}
             id={Binger.id}
