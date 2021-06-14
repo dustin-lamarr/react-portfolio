@@ -14,7 +14,7 @@ export function Resume() {
           <div className="row pt-5">
             <object
               type="application/pdf"
-              data="/images/dev-resume-2.pdf"
+              data="/images/dustin_lamarr_full_stack_resume.pdf"
               width="auto"
               height="800"
             ></object>
