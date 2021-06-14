@@ -24,15 +24,16 @@ export function About() {
         >
           <div className="row py-5">
             <p className="fs-3" style={styles.about}>
-              I'm Dustin. I like movies, basketball, soccer, gaming, traveling,
+              I'm Dustin. I like movies, basketball (Go Jazz!), soccer (Liverpool FC), gaming, traveling,
               fancy cocktails, and New Wave. I was in the US Navy for six years.
-              I have been to fifteen different countries.
+              I have been to fifteen different countries. I have an awesome wife and two kids.
             </p>
             <br />
             <p className="fs-3" style={styles.about}>
-              I have almost 10 years experience in branding, product
-              development, marketing, and business operations. Now I write
-              efficient, useful code and am eager to learn more.
+              In my career life I have almost 10 years experience in branding, product
+              development, marketing, and business operations. I am creative at solving problems, I take pride in my integrity, and I am a great teammate.
+              
+              Now I write efficient, useful code and am eager to learn more.
             </p>
           </div>
         </div>
