@@ -30,15 +30,4 @@ const Bobby = {
     alt: "bobbyfirmino.com homepage"
 }
 
-const Binger = {
-    img:"/images/binger.png",
-    id:"binger",
-    section:"Binger",
-    href:"https://dustin-lamarr.github.io/binger/",
-    summary: "Binger takes user inputs and tracks the number of hours they have watched movies or television shows and stores the inputs on local storage. Future development includes conversion to PWA.",
-    tech: ["HTML/CSS","Javascript", "Node.js", "Handlebars","jQuery","Bootstrap","TMDB Trending Movies / Search API"],
-    github: "https://github.com/dustin-lamarr/binger",
-    alt: "binger homepage"
-}
-
-export { Portfolio, Voter, Bobby, Binger };
+export { Portfolio, Voter, Bobby };

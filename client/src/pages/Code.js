@@ -2,7 +2,7 @@ import React from "react";
 import Container from "../components/Container";
 import TopNav from "../components/TopNav";
 import InfoCard from "../components/InfoCard";
-import { Portfolio, Voter, Bobby, Binger } from "../utils/projects"
+import { Portfolio, Voter, Bobby } from "../utils/projects"
 
 
 export function Code() {
@@ -61,20 +61,7 @@ export function Code() {
             })}
           </InfoCard>
           
-          <InfoCard
-            img={Binger.img}
-            id={Binger.id}
-            section={Binger.section}
-            href={Binger.href}
-            summary={Binger.summary}
-            github={Binger.github}
-          >
-              {Binger.tech.map((tech, i) => {
-              return (
-                <li key={i}>{tech}</li>
-              )
-            })}
-          </InfoCard>
+          
          
       </Container>
     </>
