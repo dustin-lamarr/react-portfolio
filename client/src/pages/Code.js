@@ -15,6 +15,21 @@ export function Code() {
       <Container>
 
           <InfoCard
+          img={Bobby.img}
+          id={Bobby.id}
+          section={Bobby.section}
+          href={Bobby.href}
+          summary={Bobby.summary}
+          github={Bobby.github}
+             >
+               {Bobby.tech.map((tech, i) => {
+              return (
+                <li key={i}>{tech}</li>
+              )
+            })}
+             </InfoCard>
+
+             <InfoCard
           img={Voter.img}
           id={Voter.id}
           section={Voter.section}
@@ -29,21 +44,6 @@ export function Code() {
               )
             })}
           </InfoCard>
-
-          <InfoCard
-          img={Bobby.img}
-          id={Bobby.id}
-          section={Bobby.section}
-          href={Bobby.href}
-          summary={Bobby.summary}
-          github={Bobby.github}
-             >
-               {Bobby.tech.map((tech, i) => {
-              return (
-                <li key={i}>{tech}</li>
-              )
-            })}
-             </InfoCard>
 
              <InfoCard
           img={Portfolio.img}

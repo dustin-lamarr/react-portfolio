@@ -23,10 +23,10 @@ const Bobby = {
     img:"/images/bobbyfirmino.png",
     id:"bobby",
     section:"bobbyfirmino.com",
-    href:"http://bobbyfirmino.com/",
-    summary:"Promotional website in conjunction with LFC Utah. Currently renders a random gif based on an api search from the clicked team name. Future development will include transition to hosted MongoDB-Atlas database to allow users to upload gifs.",
+    href:"https://bobbyfirmino.com/",
+    summary:"Promotional website in conjunction with LFC Utah. Previously built with Handlebars, now converted to a single page app, built with Vue and Vite as the packager. Uses API to render live Premier League table. Future plans include links to Liverpool related art on Etsy/other platforms. Possible affiliate program with LFC store.",
     tech: ["HTML/CSS","Javascript", "Node.js", "Handlebars","Sequelize/MySQL","jQuery","Express","UI Kit","Giphy Search API"],
-    github: "https://github.com/dustin-lamarr/bobbyfirmino",
+    github: "https://github.com/dustin-lamarr/bobbyfirmino-v2",
     alt: "bobbyfirmino.com homepage"
 }
 
