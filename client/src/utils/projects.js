@@ -24,8 +24,8 @@ const Bobby = {
     id:"bobby",
     section:"bobbyfirmino.com",
     href:"https://bobbyfirmino.com/",
-    summary:"Promotional website in conjunction with LFC Utah. Previously built with Handlebars, now converted to a single page app, built with Vue and Vite as the packager. Uses API to render live Premier League table. Future plans include links to Liverpool related art on Etsy/other platforms. Possible affiliate program with LFC store.",
-    tech: ["HTML/CSS","Javascript","Vue","Tailwind CSS","Vite","Axios","Premier League API"],
+    summary:"Promotional website in conjunction with LFC Utah. Previously built with Handlebars, now converted to serverless Vue SPA, with Vite. Uses Netlify Functions to perform backend API calls for EPL data and Etsy shop data. Currently integrating Etsy listing images. Possible affiliate program with LFC store.",
+    tech: ["HTML/CSS","Javascript","Vue","Tailwind CSS","Vite","PL API via RapidAPI", "Etsy API", "Netlify Functions"],
     github: "https://github.com/dustin-lamarr/bobbyfirmino-v2",
     alt: "bobbyfirmino.com homepage"
 }
