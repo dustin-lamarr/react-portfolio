@@ -62,16 +62,7 @@ function SkillsBox() {
               </div>
               </div>
           </li>
-          <li className="list-group-item bg-transparent p-0 justify-content-start border-0">
-          <div className="row row-cols-2 align-items-center pb-1">
-                  <div className="col-sm-auto">
-              <img src="/images/bulma.svg" alt="bulma logo" height="30" width="30" className="align-self-start"></img>
-              </div>
-              <div className="col-sm-auto ps-0">
-            <p className="fs-5 m-0 text-start">Bulma</p>
-              </div>
-              </div>
-          </li>
+          
           <li className="list-group-item bg-transparent p-0 justify-content-start border-0">
           <div className="row row-cols-2 align-items-center pb-1">
                   <div className="col-sm-auto">
